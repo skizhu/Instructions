@@ -1,0 +1,58 @@
+@keyframes fadein {
+    from { opacity: 0}
+    to {opacity: 1}
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #44475a;
+    color:#f8f8f2;
+    margin:0px;
+    transition:0.2s;
+    animation: fadein 0.5s;
+    overflow:hidden;
+}
+#entrypage{
+    opacity:1;
+    color: auto;
+    border:2px solid #8be9fd;
+    margin-top:15%;
+    transition:0.5s;
+    height:100%;
+}
+#entrybox{
+    text-align: center;
+    color:#f8f8f2;
+    font-size:30px;
+    width:50%;
+}
+input[type=date]{
+    color: #FFF;
+  }
+::placeholder{
+    color:auto;
+}
+#submit{
+    background-color:#ff5555;
+}
+
+#mainpage{
+    margin-top:none;
+    opacity:0;
+    transition:0.5s;
+    overflow:auto;
+}
+.dayone, .daytwo, .daythree, .dayfour, .dayfive{
+    border:2px solid #8be9fd;
+    margin-top:4px;
+    transition:0.2s;
+    font-size: 50px;
+}
+.dayone:hover, .daytwo:hover, .daythree:hover, .dayfour:hover, .dayfive:hover{
+    border:2px solid #ff5555;
+    transition:0.2s;
+}
+.instructtext{
+    font-size:25px;
+}

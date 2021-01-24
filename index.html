@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <script src='onload.js'></script>
+    <center>
+    <div id='entrypage' onload='onloadFn()'>
+        <center>
+            <h2 id='entryinstruction'>Input Appointment Date Below</h2>
+            <input type='date' id='entrybox' placeholder='YYYY-MM-DD'>
+            <button class="btn waves-effect waves-light" type="submit" id='submit' onclick='entrysubmit()'>Submit
+                <i class="large material-icons">check</i>
+            </button>
+        </center>
+    </div>
+    </center>
+
+    <div id='mainpage'>
+        <center>
+            <div class='rows'>
+                <div class='dayone'>
+                    <h1 id='dayone'>one</h1> <!--Is days 1, 2, 3-->
+                    <p class='instructtext'>For each of 3 days before the test, each day take 1 <b>Dulcolax Tablets at bedtime.</b> Eat your usual diet, but avoid seeds.
+                    </p>
+                </div>
+
+                <div class='dayfour'>
+                    <h1 id='dayfour'>four</h1>
+                    <p class='instructtext'>Take 1 Dulcolax Tablet at 10:00AM. Eat a light breakfast (eggs and bread-no seeds). <br>
+                        Afterwards take clear fluids only (clear broth, pop, juice, jello. tea, coffee, etc. – milk is okay).<br>
+                        Take 1 bottle of Citro-Mag at 4PM (330ml) – it may taste better if chilled – with 1-2 liters of Gatorade (avoid the red color). Each patient is unique, but it generally takes 1-2 hours to work, with diarrhea lasting from some 3-4 hours afterwards.  <br>Vaseline can help soothe the bottom.<br>
+                        All laxatives taste salty, and are better if chilled. The Gatorade minimizes the risks of dehydration. Clear Apple juice is an alternative.<br>
+                    <b>Take all your usual medications.</b>  <br>Take the morning dose of diabetic pills and insulin, and no diabetic meds afterwards as you will not be eating. <br>
+                        Please take all your preparation as directed since polyps and tumours can be missed if the bowel is not completely clear of residue.
+                        </p>
+                </div>
+                <div class='dayfive'>
+                    <h1 id='dayfive'>five</h1>
+                    <p class='instructtext'>
+                        Take 1 bottle of Citro-Mag by mouth at 4:00 AM with 1 liter Gatorade (no red) or clear apple juice. <br>
+                        The diarrhea usually finishes in 3-4 hours.  No breakfast or solid food until after the test. <br>
+                        Water or black coffee/tea is OK (but NO milk).  No fluids for the 3 hours before arrival.   <br>                                      
+                        Take all your usual morning BP and heart medications (but no water pills). <br>                                                                   
+                        For diabetics take no meds/insulin, as the goal is to keep the sugar between 4-20 (high). <br>                                          
+                        The procedure takes 30mins, but the total time spent in the hospital is about 2 hours . <br>                               
+                        In the endo unit, after changing,  please use the toilet to complete the purge. <br>
+                    </p>
+                </div>
+        </center>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>
